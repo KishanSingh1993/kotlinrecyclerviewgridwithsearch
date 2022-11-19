@@ -19,10 +19,12 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity(), RecyclerItemClickListener.OnRecyclerClickListener {
+
     private val TAG = "MainActivity"
     private val viewModel: MainViewModel by inject()
     private var recyclerViewAdapter = MainRecyclerViewAdapter(ArrayList())
     lateinit var itemList: ArrayList<ContentData>
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
