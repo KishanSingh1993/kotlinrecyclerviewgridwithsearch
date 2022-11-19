@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Dribbble",
+    "description": "Dribbble is a self-promotion and social networking platform for digital designers and creatives.",
+    "icon": "card_01"
+  },
+  {
+    "name": "Twitter",
+    "description": "Twitter is an American microblogging and social networking service on which users post and interact with messages known as \"tweets\".",
+    "icon": "card_02"
+  },
+  {
+    "name": "Tinder",
+    "description": "Tinder is an American geosocial networking and online dating application that allows users to anonymously swipe to like or dislike other users' posted profiles.",
+    "icon": "card_03"
+  },
+  {
+    "name": "Linkedin",
+    "description": "LinkedIn is an American business and employment-oriented online service that operates via websites and mobile apps.",
+    "icon": "card_04"
+  },
+  {
+    "name": "Google+",
+    "description": "Google+ was a social network owned and operated by Google.",
+    "icon": "card_05"
+  }
+]
