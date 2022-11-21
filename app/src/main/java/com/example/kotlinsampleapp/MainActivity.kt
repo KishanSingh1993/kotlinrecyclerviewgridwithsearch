@@ -66,7 +66,8 @@ class MainActivity : AppCompatActivity(), RecyclerItemClickListener.OnRecyclerCl
 
             override fun onQueryTextChange(msg: String): Boolean {
 
-                filter(msg)
+                //filter(msg)
+                recyclerViewAdapter.filter.filter(msg)
                 return false
             }
         })
@@ -90,7 +91,8 @@ class MainActivity : AppCompatActivity(), RecyclerItemClickListener.OnRecyclerCl
 
             recyclerViewAdapter = MainRecyclerViewAdapter(itemList)
             recycler_view.adapter = recyclerViewAdapter
-            recyclerViewAdapter.filterList(filteredlist)
+            recyclerViewAdapter.filter.filter(text)
         }
     }
+
 }
